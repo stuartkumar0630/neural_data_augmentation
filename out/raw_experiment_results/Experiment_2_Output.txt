@@ -1,0 +1,74 @@
+Experiment 2 Output
+
+- Temperature 0.8
+- Augmentation Ratio 0.3
+- Model LSTM
+
+Duplicate Augmentation
+----------------------
+Epoch 1/10
+ - 44s - loss: 0.4131 - acc: 0.8262
+Epoch 2/10
+ - 45s - loss: 0.2993 - acc: 0.8758
+Epoch 3/10
+ - 42s - loss: 0.2517 - acc: 0.9022
+Epoch 4/10
+ - 42s - loss: 0.2215 - acc: 0.9102
+Epoch 5/10
+ - 44s - loss: 0.1922 - acc: 0.9237
+Epoch 6/10
+ - 42s - loss: 0.1759 - acc: 0.9296
+Epoch 7/10
+ - 46s - loss: 0.1541 - acc: 0.9400
+Epoch 8/10
+ - 42s - loss: 0.1402 - acc: 0.9455
+Epoch 9/10
+ - 45s - loss: 0.1271 - acc: 0.9498
+Epoch 10/10
+ - 43s - loss: 0.1221 - acc: 0.9510
+
+Heuristic
+----------------------
+Epoch 1/10
+ - 45s - loss: 0.4084 - acc: 0.8321
+Epoch 2/10
+ - 46s - loss: 0.3011 - acc: 0.8777
+Epoch 3/10
+ - 48s - loss: 0.2680 - acc: 0.8880
+Epoch 4/10
+ - 45s - loss: 0.2372 - acc: 0.9013
+Epoch 5/10
+ - 44s - loss: 0.2105 - acc: 0.9142
+Epoch 6/10
+ - 42s - loss: 0.1887 - acc: 0.9242
+Epoch 7/10
+ - 42s - loss: 0.1736 - acc: 0.9316
+Epoch 8/10
+ - 42s - loss: 0.1619 - acc: 0.9328
+Epoch 9/10
+ - 46s - loss: 0.1436 - acc: 0.9421
+Epoch 10/10
+ - 43s - loss: 0.1323 - acc: 0.9450
+
+Generative
+----------------------
+Epoch 1/10
+ - 85s - loss: 0.4281 - acc: 0.8107
+Epoch 2/10
+ - 84s - loss: 0.3012 - acc: 0.8756
+Epoch 3/10
+ - 83s - loss: 0.2622 - acc: 0.8931
+Epoch 4/10
+ - 82s - loss: 0.2406 - acc: 0.9037
+Epoch 5/10
+ - 83s - loss: 0.2216 - acc: 0.9113
+Epoch 6/10
+ - 82s - loss: 0.1976 - acc: 0.9237
+Epoch 7/10
+ - 84s - loss: 0.1872 - acc: 0.9248
+Epoch 8/10
+ - 83s - loss: 0.1705 - acc: 0.9335
+Epoch 9/10
+ - 83s - loss: 0.1607 - acc: 0.9333
+Epoch 10/10
+ - 83s - loss: 0.1510 - acc: 0.9402
