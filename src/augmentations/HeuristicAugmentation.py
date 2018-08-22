@@ -5,13 +5,13 @@ import pandas as pd
 from random import shuffle
 import itertools
 
-data = pd.read_csv('./resources/Sentiment.csv')
+data = pd.read_csv('../resources/Sentiment.csv')
 data = data[['text','sentiment']]
 
 def get_miss_spellings():
 
     miss_spelling_dict = {}
-    file = open("./resources/spelling_mistakes.txt", "r")
+    file = open("../resources/spelling_mistakes.txt", "r")
     words = [word.rstrip() for word in file.readlines()]
 
     correct_spelling = words[0]
@@ -84,4 +84,4 @@ print("There were originally " + str(len(data)) + " observations")
 augmented_data = augmented_dataset(data)
 print("There are now " + str(len(augmented_data)) + " observations")
 
-augmented_data.to_csv("./out/artificial_data/heuristic_augmented_sentiment.csv", encoding='utf-8', index=False)
+augmented_data.to_csv("../out/artificial_data/heuristic_augmented_sentiment.csv", encoding='utf-8', index=False)
