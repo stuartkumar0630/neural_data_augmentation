@@ -16,7 +16,7 @@ The artificial data for all parts of this investigation can be found in the out/
 
 ## Running Instructions
 
-Each python file is capable of being run independenedly, with exception to those associated with generative augmentation. In order to replicate generative augmentation, text_gen_pos.py and text_gen_neg,py must both be run before Merger.py,
+Each python file is capable of being run independenedly. The code creating artifical dataset with TextGenRNN is located in generative_augmentation.py.
 
 ## Authors
 Stuart Kumar
