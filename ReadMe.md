@@ -4,7 +4,7 @@ These directories contain the source code, resources, and output created for thi
 
 ## Source Code
 
-All source code can be found in the directory. The augmentations subdirectory contains the code associated with creating artificial data, both for the novel generative augmentation and the heuristic benchmark. Implementations of the standard sentiment analysis models adapted from the Kaggle Challenge are located in the sentiment_analysis subdirectory. The code used to create the charts and figures in the report is in the Charts subdirectory.
+All source code can be found in the src directory. The augmentations subdirectory contains the code associated with creating artificial data, both for the novel generative augmentation and the heuristic benchmark. Implementations of the standard sentiment analysis models adapted from the Kaggle Challenge are located in the sentiment_analysis subdirectory. The code used to create the charts and figures in the report is in the Charts subdirectory.
 
 ## Resources
 
